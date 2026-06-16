@@ -13,6 +13,7 @@
             "hash": "8DB6E86002CC27250313B2D18BEC93227E6BFA61"
         }
     },
+	"extract_dir": "Jexus Manager\\14.0.10.0",
     "bin": "JexusManager.exe",
     "shortcuts": [
         [

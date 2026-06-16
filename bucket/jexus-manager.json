@@ -1,0 +1,37 @@
+{
+    "version": "14.0.10.0",
+    "description": "A cross-platform manager for Jexus web server, IIS, and IIS Express.",
+    "homepage": "https://github.com/jexuswebserver/JexusManager",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jexuswebserver/JexusManager/releases/download/v14.0.10.0/JexusManager_x64.msi",
+            "hash": "F96A89CBA7DAE39CB5640B743EB1F94BA46B9345"
+        },
+        "arm64": {
+            "url": "https://github.com/jexuswebserver/JexusManager/releases/download/v14.0.10.0/JexusManager_arm64.msi",
+            "hash": "8DB6E86002CC27250313B2D18BEC93227E6BFA61"
+        }
+    },
+    "extract_dir": "PFiles\\LeXtudio\\Jexus Manager",
+    "bin": "JexusManager.exe",
+    "shortcuts": [
+        [
+            "JexusManager.exe",
+            "Jexus Manager"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jexuswebserver/JexusManager"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jexuswebserver/JexusManager/releases/download/v$version/JexusManager_x64.msi"
+            },
+            "arm64": {
+                "url": "https://github.com/jexuswebserver/JexusManager/releases/download/v$version/JexusManager_arm64.msi"
+            }
+        }
+    }
+}

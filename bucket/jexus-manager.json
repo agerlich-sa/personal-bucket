@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jexuswebserver/JexusManager/releases/download/v14.0.10.0/JexusManager_x64.msi",
-            "hash": "F96A89CBA7DAE39CB5640B743EB1F94BA46B9345"
+            "hash": "c35c91f5f78faa9757e0f04a3e576e2c590bfd884e264368994477560c25b405"
         },
         "arm64": {
             "url": "https://github.com/jexuswebserver/JexusManager/releases/download/v14.0.10.0/JexusManager_arm64.msi",
